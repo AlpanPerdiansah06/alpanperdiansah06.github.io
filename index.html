@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Absensi siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+    <a href="user-presensi.html">Presensi</a>
+    <a href="login.html">Logout</a>
+</nav>
+
+<div class="container">
+    <h2>Absensi siswa</h2>
+
+    <form id="absenForm">
+        <input type="text" id="nama" placeholder="Nama" required>
+
+        <select id="status">
+            <option value="Hadir">Hadir</option>
+            <option value="Izin">Izin</option>
+            <option value="Sakit">Sakit</option>
+        </select>
+
+        <button type="submit">Kirim Presensi</button>
+    </form>
+</div>
+
+<script src="presensi.js"></script>
+</body>
+</html>
